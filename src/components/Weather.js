@@ -14,18 +14,18 @@ const Weather = ({ location, setLocation, data, setData }) => {
 
   return (
     <>
-      <div className="search">
-        <input
-          className="serach-input"
-          value={location}
-          onChange={(event) => setLocation(event.target.value)}
-          onKeyPress={searchLocation}
-          placeholder="Enter Location"
-          type="text"
-        />
-      </div>
-
       <div className="container">
+        <div className="search">
+          <input
+            className="serach-input"
+            value={location}
+            onChange={(event) => setLocation(event.target.value)}
+            onKeyPress={searchLocation}
+            placeholder="Enter Location"
+            type="text"
+          />
+        </div>
+
         <div className="top">
           <div className="location">
             <p>{data.name}</p>
