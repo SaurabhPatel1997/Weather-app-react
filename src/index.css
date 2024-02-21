@@ -53,6 +53,11 @@ h1 {
   background: rgba(255, 255, 255, 0.1);
   color: #f8f8f8;
   margin-top: 40px;
+  width: 300px;
+}
+
+.serach-input:focus {
+  outline: none;
 }
 
 ::placeholder {
@@ -85,7 +90,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 12px;
